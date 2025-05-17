@@ -11,14 +11,21 @@ RUN apt-get install -y python3-colcon-common-extensions
 ## Install Webot
 RUN apt-get install -y ros-jazzy-webots-ros2
 
+## NOTICE!!!
+## <----------- Once inside the docker, set the following function to ALWAYS return False ------------>
+# sudo vim /opt/ros/jazzy/lib/python3.12/site-packages/webots_ros2_driver/utils.py
+# def is_wsl():
+#    return False
+
 ## Add `ros` to env variable
 RUN echo "source /opt/ros/jazzy/setup.bash" >> ~/.bashrc
 
 ## Setup Webot
 RUN export WEBOTS_HOME=/usr/local/webots
 
-## Clone and build Package Underlay (SEQUENTIAL FLAG IS IMPORTANT)
-# RUN cd /home/corvus/Projects/ros2 && git clone https://github.com/ros2/examples src/examples -b jazzy && colcon build --symlink-install --executor sequential
+## Clone and build Package Overlay (SEQUENTIAL FLAG IS IMPORTANT)
+RUN cd /home/corvus/Projects/ && git clone https://github.com/corvus-rex/ros2_webot.git 
+##RUN colcon build --symlink-install --executor sequential
 # RUN git clone https://github.com/corvus-rex/examples src/examples -b jazzy
 
 ## Add `colcon_cd` to env variable
