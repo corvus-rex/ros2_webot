@@ -1,0 +1,21 @@
+running develop
+running egg_info
+creating py_pubsub.egg-info
+writing py_pubsub.egg-info/PKG-INFO
+writing dependency_links to py_pubsub.egg-info/dependency_links.txt
+writing entry points to py_pubsub.egg-info/entry_points.txt
+writing requirements to py_pubsub.egg-info/requires.txt
+writing top-level names to py_pubsub.egg-info/top_level.txt
+writing manifest file 'py_pubsub.egg-info/SOURCES.txt'
+reading manifest file 'py_pubsub.egg-info/SOURCES.txt'
+writing manifest file 'py_pubsub.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/corvus/Projects/ros2_webot/src1/install/my_package/lib/python3.12/site-packages/py-pubsub.egg-link (link to .)
+Installing listener script to /home/corvus/Projects/ros2_webot/src1/install/my_package/lib/py_pubsub
+Installing talker script to /home/corvus/Projects/ros2_webot/src1/install/my_package/lib/py_pubsub
+
+Installed /home/corvus/Projects/ros2_webot/src1/build/my_package
+running symlink_data
+symbolically linking /home/corvus/Projects/ros2_webot/src1/build/my_package/resource/py_pubsub -> /home/corvus/Projects/ros2_webot/src1/install/my_package/share/ament_index/resource_index/packages
+creating /home/corvus/Projects/ros2_webot/src1/install/my_package/share/py_pubsub
+symbolically linking /home/corvus/Projects/ros2_webot/src1/build/my_package/package.xml -> /home/corvus/Projects/ros2_webot/src1/install/my_package/share/py_pubsub

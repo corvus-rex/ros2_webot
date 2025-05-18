@@ -1,0 +1,23 @@
+[1.700s] Invoking command in '/home/corvus/Projects/ros2_webot/src1/build/my_package': PYTHONPATH=/home/corvus/Projects/ros2_webot/src1/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/corvus/Projects/ros2_webot/src1/install/my_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/corvus/Projects/ros2_webot/src1/build/my_package/build --no-deps symlink_data
+[2.094s] running develop
+[2.345s] running egg_info
+[2.345s] creating py_pubsub.egg-info
+[2.366s] writing py_pubsub.egg-info/PKG-INFO
+[2.367s] writing dependency_links to py_pubsub.egg-info/dependency_links.txt
+[2.367s] writing entry points to py_pubsub.egg-info/entry_points.txt
+[2.368s] writing requirements to py_pubsub.egg-info/requires.txt
+[2.368s] writing top-level names to py_pubsub.egg-info/top_level.txt
+[2.369s] writing manifest file 'py_pubsub.egg-info/SOURCES.txt'
+[2.424s] reading manifest file 'py_pubsub.egg-info/SOURCES.txt'
+[2.426s] writing manifest file 'py_pubsub.egg-info/SOURCES.txt'
+[2.460s] running build_ext
+[2.470s] Creating /home/corvus/Projects/ros2_webot/src1/install/my_package/lib/python3.12/site-packages/py-pubsub.egg-link (link to .)
+[2.472s] Installing listener script to /home/corvus/Projects/ros2_webot/src1/install/my_package/lib/py_pubsub
+[2.474s] Installing talker script to /home/corvus/Projects/ros2_webot/src1/install/my_package/lib/py_pubsub
+[2.475s] 
+[2.475s] Installed /home/corvus/Projects/ros2_webot/src1/build/my_package
+[2.475s] running symlink_data
+[2.475s] symbolically linking /home/corvus/Projects/ros2_webot/src1/build/my_package/resource/py_pubsub -> /home/corvus/Projects/ros2_webot/src1/install/my_package/share/ament_index/resource_index/packages
+[2.476s] creating /home/corvus/Projects/ros2_webot/src1/install/my_package/share/py_pubsub
+[2.477s] symbolically linking /home/corvus/Projects/ros2_webot/src1/build/my_package/package.xml -> /home/corvus/Projects/ros2_webot/src1/install/my_package/share/py_pubsub
+[2.560s] Invoked command in '/home/corvus/Projects/ros2_webot/src1/build/my_package' returned '0': PYTHONPATH=/home/corvus/Projects/ros2_webot/src1/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/corvus/Projects/ros2_webot/src1/install/my_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/corvus/Projects/ros2_webot/src1/build/my_package/build --no-deps symlink_data
