@@ -13,7 +13,7 @@ RUN apt-get install -y ros-jazzy-webots-ros2
 
 ## NOTICE!!!
 ## <----------- Once inside the docker, set the following function to ALWAYS return False ------------>
-# sudo vim /opt/ros/jazzy/lib/python3.12/site-packages/webots_ros2_driver/utils.py
+# sudo nano /opt/ros/jazzy/lib/python3.12/site-packages/webots_ros2_driver/utils.py
 # def is_wsl():
 #    return False
 
